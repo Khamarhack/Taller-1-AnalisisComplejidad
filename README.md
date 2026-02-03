@@ -17,18 +17,17 @@ test_sort_sorted.cxx
 ```
 ---
 # Archivos header (*.h / *.hxx) #
--
-  factorial_functions.h — declara:
-
-  unsigned long factorial_recursive(unsigned long n);
-  unsigned long factorial_iterative(unsigned long n);
+  
+  factorial_functions.h — declara: 
+  -unsigned long factorial_recursive(unsigned long n);
+  -unsigned long factorial_iterative(unsigned long n);
   sort_functions.h — declara:
-  void bubblesort(long* a, long n);
-  void quicksort(long* a, long n);
-  void heapsort(long* a, long n);
+  -void bubblesort(long* a, long n);
+  -void quicksort(long* a, long n);
+  -void heapsort(long* a, long n);
   template<bool> is_sorted(I first, I last) (incluye sort_functions.hxx).
   sort_functions.hxx — implementa la plantilla is_sorted (comprobador de orden).
----
+  
 # Archivos fuente (*.cxx) #
 
   factorial_functions.cxx — implementa las dos versiones del factorial (recursiva e iterativa).
