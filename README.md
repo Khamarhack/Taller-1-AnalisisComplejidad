@@ -26,8 +26,8 @@ test_sort_sorted.cxx
   - void bubblesort(long* a, long n);
   - void quicksort(long* a, long n);
   - void heapsort(long* a, long n);
-  template<bool> is_sorted(I first, I last) (incluye sort_functions.hxx).
-  sort_functions.hxx — implementa la plantilla is_sorted (comprobador de orden).
+  - template<bool> is_sorted(I first, I last) (incluye sort_functions.hxx).
+  - sort_functions.hxx — implementa la plantilla is_sorted (comprobador de orden).
   
 # Archivos fuente (*.cxx) #
 
