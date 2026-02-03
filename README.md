@@ -17,6 +17,7 @@ test_sort_sorted.cxx
 ```
 ---
 # Archivos header (*.h / *.hxx) #
+-
   factorial_functions.h — declara:
   unsigned long factorial_recursive(unsigned long n);
   unsigned long factorial_iterative(unsigned long n);
