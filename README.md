@@ -20,7 +20,8 @@ test_sort_sorted.cxx
   
   factorial_functions.h — declara: 
   - unsigned long factorial_recursive(unsigned long n);
-  - unsigned long factorial_iterative(unsigned long n)
+  - unsigned long factorial_iterative(unsigned long n);
+    
   sort_functions.h — declara:
   - void bubblesort(long* a, long n);
   - void quicksort(long* a, long n);
